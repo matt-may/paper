@@ -4,7 +4,7 @@
 
 * `template.tex` is the main TeX file. 
 * `template.bib` is the BiBTeX references file. If you would like to add a reference, just append your reference to this file. You can find the BibTeX format for a given paper by doing a Google Scholar search for it, and then clicking `Import into BibTex`.
-* To compile your file and view it, you can run this command (assuming you have `pdflatex` installed: `latex template; bibtex template; latex template; pdflatex template; open template.pdf`
+* To compile your file and view it, you can run this command (assuming you have `pdflatex` installed): `latex template; bibtex template; latex template; pdflatex template; open template.pdf`
 
 ## Contributing
 
