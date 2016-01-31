@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks]{hyperref}
+\usepackage{cite}
+
+\title{Literature Review: CSE 6730 Project 1}
+\author{Chris Dunlap, Allen Koh, Matt May}
+\date{February 2016}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+\end{titlepage}
+
+A variety of techniques have been used to model pedestrian movement. Cellular
+automata, lattice gas, social force, fluid-dynamic, agent-based, game-theoretic,
+and animal experimention-based approaches have been used
+\cite{zheng2009modeling}. As noted by Zheng, Zhong, and Liu
+\cite{zheng2009modeling}, models often encounter or attempt to model several
+common phenomenoma: clogging, side-stepping, lane formation, and herding
+behavior, among them.
+
+These phenomena manifest themselves in different ways and at different magnitudes
+depending on the system being modeled. In one of the early explorations of 2D
+cellular automata to simulating vehicular traffic flow, Biham and Middleton
+\cite{biham1992self} note the presence of a sharp \textit{jamming transition}
+in which all cars in the simulation transition from moving at maximal speed to
+being stuck. Similar effects were noted in simulations of bi-directional
+pedestrian movement, with Weifeng, Lizhong, and Weicheng
+\cite{weifeng2003simulation} finding that as total pedestrian density increases,
+a critical value is reached at which the system transitions into a jammed state
+where only a few pedestrians are able to proceed.
+
+In a slightly different take on the problem, Okazaki and Matsushita
+\cite{okazaki1993study} modeled pedestrian evacuation using Coulomb's Law, with
+actors magnetically moving toward their goals and away from obstacles that would
+lead to collisions. In another application of equations of natural phenomena,
+Helbing \cite{helbing1998fluid} derived fluid dynamic equations for explaining
+the movement of pedestrian crowds, observing phenomena such as the development
+of lanes, jamming, and crossing. Helbing \cite{helbing2000simulating} further
+notes an explicit ``faster-is-slower" effect, in which attempting to move faster
+results in a smaller average speed of leaving at high pedestrian density in
+evacuation scenarios.
+
+In a more recent study, Helbing et al. \cite{helbing2005self} uses a
+``social force" model, which states that pedestrians operate in some sense
+automatically when reacting to obstacles and other pedestrians, applying
+strategies that have been learned to be most effective over time. Several
+suggestions are made to alleviate the three most common problems in pedestrian
+crowds: counterflows, bottlenecks, and intersecting flows. The presence of
+strategically placed obstacles are found to actually reduce these negative
+phenomena, leading to improved flow.
+
+Building on previous cellular automata-based models, Burstedde et al.
+\cite{burstedde2001simulation} introduce a \textit{floor field}, a secondary
+grid of cells which underlies the main grid and acts as a substitute for
+pedestrian intelligence. These fields can be either static or dynamic, and are
+capable of promoting the avoidance of jams, as well as simulating attractive
+effects, in which pedestrians are more likely to follow in the paths of
+pedestrians ahead of them.
+
+Taking a more algorithmic approach, Fang et al. \cite{fang2011hierarchical} have
+designed a modified ant colony optimization (ACO) algorithm for optimizing
+pedestrian evacuation, seeking to minimize evacuation time, evacuation distance,
+and congestion. Kemloh Wagoum, Seyfried, and Holl \cite{kemloh2012modeling}
+utilize an observation principle approach in modeling pedestrian evacuation,
+in which pedestrians first observe their environment and then make a final
+decision on strategy based on obtained data.
+
+
+
+
+
+
+
+\bibliography{template}{}
+\bibliographystyle{plain}
+\end{document}

@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{biham1992self}
+Ofer Biham, A~Alan Middleton, and Dov Levine.
+\newblock Self-organization and a dynamical transition in traffic-flow models.
+\newblock {\em Physical Review A}, 46(10):R6124, 1992.
+
+\bibitem{burstedde2001simulation}
+Carsten Burstedde, Kai Klauck, Andreas Schadschneider, and Johannes Zittartz.
+\newblock Simulation of pedestrian dynamics using a two-dimensional cellular
+  automaton.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  295(3):507--525, 2001.
+
+\bibitem{fang2011hierarchical}
+Zhixiang Fang, Xinlu Zong, Qingquan Li, Qiuping Li, and Shengwu Xiong.
+\newblock Hierarchical multi-objective evacuation routing in stadium using ant
+  colony optimization approach.
+\newblock {\em Journal of Transport Geography}, 19(3):443--451, 2011.
+
+\bibitem{helbing1998fluid}
+Dirk Helbing.
+\newblock A fluid dynamic model for the movement of pedestrians.
+\newblock {\em arXiv preprint cond-mat/9805213}, 1998.
+
+\bibitem{helbing2005self}
+Dirk Helbing, Lubos Buzna, Anders Johansson, and Torsten Werner.
+\newblock Self-organized pedestrian crowd dynamics: Experiments, simulations,
+  and design solutions.
+\newblock {\em Transportation science}, 39(1):1--24, 2005.
+
+\bibitem{helbing2000simulating}
+Dirk Helbing, Ill{\'e}s Farkas, and Tamas Vicsek.
+\newblock Simulating dynamical features of escape panic.
+\newblock {\em Nature}, 407(6803):487--490, 2000.
+
+\bibitem{kemloh2012modeling}
+Armel~Ulrich Kemloh~Wagoum, Armin Seyfried, and Stefan Holl.
+\newblock Modeling the dynamic route choice of pedestrians to assess the
+  criticality of building evacuation.
+\newblock {\em Advances in Complex Systems}, 15(07):1250029, 2012.
+
+\bibitem{okazaki1993study}
+Shigeyuki Okazaki and Satoshi Matsushita.
+\newblock A study of simulation model for pedestrian movement with evacuation
+  and queuing.
+\newblock In {\em International Conference on Engineering for Crowd Safety},
+  pages 271--280, 1993.
+
+\bibitem{weifeng2003simulation}
+Fang Weifeng, Yang Lizhong, and Fan Weicheng.
+\newblock Simulation of bi-direction pedestrian movement using a cellular
+  automata model.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  321(3):633--640, 2003.
+
+\bibitem{zheng2009modeling}
+Xiaoping Zheng, Tingkuan Zhong, and Mengting Liu.
+\newblock Modeling crowd evacuation of a building based on seven methodological
+  approaches.
+\newblock {\em Building and Environment}, 44(3):437--445, 2009.
+
+\end{thebibliography}
